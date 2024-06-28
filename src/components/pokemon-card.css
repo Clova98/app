@@ -1,0 +1,86 @@
+/* pokemon-card.css */
+
+.card {
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-image img {
+  max-height: 100px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-content p {
+  margin: 0;
+}
+
+.card-content small {
+  color: #999;
+}
+
+.chip {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px 5px 0 0;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+/* Colors for types */
+.red.lighten-1 {
+  background-color: #e57373;
+}
+
+.blue.lighten-1 {
+  background-color: #64b5f6;
+}
+
+.green.lighten-1 {
+  background-color: #81c784;
+}
+
+.brown.lighten-1 {
+  background-color: #a1887f;
+}
+
+.grey.lighten-3 {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+.blue.lighten-3 {
+  background-color: #bbdefb;
+}
+
+.deep-purple.accent-1 {
+  background-color: #b388ff;
+}
+
+.pink.lighten-4 {
+  background-color: #f8bbd0;
+  color: #000;
+}
+
+.deep-purple.darken-2 {
+  background-color: #512da8;
+}
+
+.lime.accent-1 {
+  background-color: #eeff41;
+  color: #000;
+}
+
+.deep-orange {
+  background-color: #ff7043;
+}

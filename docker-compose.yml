@@ -1,0 +1,20 @@
+services:
+  api:
+    build:
+      context: C:/Users/hugom/Desktop/API POKEMON
+    ports:
+      - "3002:3000"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - C:/Users/hugom/Desktop/API POKEMON:/usr/src/app
+
+  react:
+    build:
+      context: C:/Users/hugom/Desktop/app
+    ports:
+      - "3001:3000"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - C:/Users/hugom/Desktop/app:/usr/src/app
